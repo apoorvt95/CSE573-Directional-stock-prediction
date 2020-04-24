@@ -7,7 +7,7 @@ The model is trained on a news corpus consisting over 80000 articles related to 
 ## How to setup the project
 1. Clone the project. Make sure you have python 3.7 installed in your system.
 2. Open a terminal, and change directory to CODE folder. 
-3. Run "pip install -r requirements.txt" command. This command should install all the python dependencies required to run the project.
+3. Run "pip install -r requirements.txt" command. This command should install all the python dependencies required to run the project. After installing dependencies. Open Python terminal, import nltk and run nltk.download('punkt')
 4. Download the dataset from [here](https://drive.google.com/drive/folders/1L4onfGFqo4UdeMD2toyqDBxQ_xJkgudg?usp=sharing "Dataset") .You need to request access from us.
 5. ExtractedNewsSentenceWise.csv contains sentences wise news for Amazon and Apple stock. The charts folder contains the stock price chart. Download the CHARTS Folder and all the CSVs.  
 6. Install Jupyter by running command "pip install jupyter". 
